@@ -51,13 +51,16 @@ h4{
     font-size: 20px;
     color: white;
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.445), rgba(255,0,0,1));
+    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.664);
     padding: 3.5% 6%;
     border-radius: 50px;
     transition: 0.1s;
 }
 .button-a:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 5px rgba(255,0,0,1);
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+    background-image: linear-gradient(rgb(255, 225, 225),rgb(255, 225, 225));
+    color: gray;
 }
 p{
     line-height: 1.7;
